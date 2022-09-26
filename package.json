@@ -1,0 +1,21 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.1",
+    "lodash": "^4.17.21",
+    "small-cup": "^0.1.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
