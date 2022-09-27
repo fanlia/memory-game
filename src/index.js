@@ -18,4 +18,6 @@ const app = cup({
     routes,
 })
 
-onpathname(app)
+onpathname(app, {
+    routeType: 'hash',
+})

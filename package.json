@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel src/index.html",
-    "docs": "rm -rf docs && parcel build --dist-dir docs src/index.html",
+    "docs": "rm -rf docs && parcel build --dist-dir docs --no-source-maps --public-url './' src/index.html",
     "build": "parcel build src/index.html"
   },
   "keywords": [],
@@ -14,7 +14,7 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
     "lodash": "^4.17.21",
-    "small-cup": "^0.1.4"
+    "small-cup": "^0.1.5"
   },
   "devDependencies": {
     "parcel": "^2.7.0"
