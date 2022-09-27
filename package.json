@@ -14,7 +14,7 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
     "lodash": "^4.17.21",
-    "small-cup": "^0.1.5"
+    "small-cup": "^0.1.6"
   },
   "devDependencies": {
     "parcel": "^2.7.0"
